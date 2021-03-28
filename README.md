@@ -4,4 +4,4 @@
 <p>Back-End: NodeJS</p>
 <p>Banco de Dados: MongoDB</p>
 
-<p>front: porta 3000 / back: porta 5000</p>
+<p>Front: port 3000 / Back: port 5000</p>
