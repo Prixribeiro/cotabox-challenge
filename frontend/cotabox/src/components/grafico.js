@@ -1,15 +1,6 @@
-import React, {useState, useEffect} from 'react';
 import { Chart } from "react-google-charts";
 
 function Grafico(){
-  const [data, setData] = useState ([]);
-    
-    //eslint-disable-next-line
-    useEffect(async () => {
-          const resposta = await fetch("http://localhost:5000/dados");
-          const dados = await resposta.json();
-          setData(dados);
-      }, []);
       
     return (
 
